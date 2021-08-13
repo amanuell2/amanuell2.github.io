@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiZend, DiPhonegap, DiScrum, DiGit } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -19,8 +19,20 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js
+            Experience with <br />
+            React.js, Angular, Vue.js,
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiPhonegap size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Mobile</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Android, ReactNative, Ionic
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -32,7 +44,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            Laravel and Databases
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,10 +53,34 @@ const Technologies = () =>  (
           <DiZend size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Programming</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            java, Kotlin, JavaScript
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiScrum size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Agile</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Scrum, Kanban
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiGit size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>VCS</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Git
           </ListParagraph>
         </ListContainer>
       </ListItem>

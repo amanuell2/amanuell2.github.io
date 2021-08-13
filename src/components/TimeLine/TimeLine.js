@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+      My name is Amanuel Tadesse I'm a Fullstack Engineer based in Addis Ababa, Ethiopia ☀️. I describe myself as a passionate developer who loves coding, open source, and the web and mobile platform ❤️.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
